@@ -1,0 +1,26 @@
+{
+  "name": "sample_1",
+  "version": "1.0.0",
+  "description": "sample code 2nd try",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sample",
+    "refer",
+    "mysql",
+    "node",
+    "express"
+  ],
+  "author": "yk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-joi-validation": "^5.0.0",
+    "joi": "^17.4.2",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.13"
+  }
+}

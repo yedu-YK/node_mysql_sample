@@ -1,0 +1,6 @@
+CREATE TABLE  companies(
+    id INT(11) PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(200) NOT NULL ,
+    email VARCHAR(200),
+    active BOOLEAN NOT NULL DEFAULT 0
+    );
